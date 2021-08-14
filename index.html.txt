@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<!-- saved from url=(0070)file:///C:/Users/HP/OneDrive/Documents/my%20project/website%20(2).html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>W3.CSS Template</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./digital library_files/w3.css">
+<link rel="stylesheet" href="file:///C:/Users/HP/OneDrive/Documents/my%20project/website_files/css">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+shadow {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+s {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(233, 15, 15), 0 0 5px darkblue;
+}
+h5 {
+  font-size: 10px;
+}
+.button {
+  border-radius: 4px;
+  background-color: #f7c12ece;
+  border: none;
+  color: #e7feff;
+  text-align: center;
+  font-size: 16px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+h6 {
+  text-shadow: 2px 2px 5px rgb(60, 26, 184);
+  font-size: 40px;
+}
+h4 {
+  text-shadow: 2px 2px 5px rgb(46, 197, 84);
+}
+
+</style>
+</head><body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-deep-orange w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <img src="file:///C:/Users/HP/OneDrive/Documents/my%20project/website_files/lab.png" style="width:100%" onclick="onClick(this)" alt="some text">
+  <shadow><h2 class="w3-padding-64"><b>ANALOG ELECTRONIC
+      ULTRA<br> CONCURRENT<br> REMOTE LAB
+      </b></h2></shadow>
+  </div>
+  <div class="w3-bar-block">
+    <shadow><a href="file:///C:/Users/HP/OneDrive/Documents/my%20project/website.html#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a>
+    <a href="file:///C:/Users/HP/OneDrive/Documents/my%20project/website.html#Images" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Images</a>
+    <a href="file:///C:/Users/HP/OneDrive/Documents/my%20project/website.html#Objective" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Objective</a>
+    <a href="file:///C:/Users/HP/OneDrive/Documents/my%20project/website.html#ListExperiment" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Experiment</a>
+    <a href="file:///C:/Users/HP/OneDrive/Documents/my%20project/website.html#Video" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Video</a>
+    <a href="file:///C:/Users/HP/OneDrive/Documents/my%20project/website.html#DDetail" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Developer Details</a></shadow>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+  <span></span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+  <!-- Header -->
+  <div class="w4-container" style="margin-top:80px" id="Images">
+    <center><img src="file:///C:/Users/HP/OneDrive/Documents/my%20project/website_files/logo.png" style="width:15%" onclick="onClick(this)" alt="some text">
+    <h6 style="text-shadow"><b>Siddaganga Institute Of Technology, Tumakuru</b></h6>
+    <h4 class="w3-text-black"><b>Department of Electronics and Telecommunication Engineering</b></h4>
+ghdhdbgsdm
+dsgdkd
+sjdhkf
+sgkmch
+    <hr style="width:100px;border:5px solid red" class="w3-round">
+  </center>
+  </div>
+
+  <!-- Photo grid (modal) -->
+  <div class="w3-row-padding">
+    <div class="w3-half">
+      <img src="file:///C:/Users/HP/OneDrive/Documents/r.jpg" style="width:100%" onclick="onClick(this)" alt="some text">
+      <img src="file:///C:/w3images/livingroom.jpg" style="width:100%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
+      <img src="file:///C:/w3images/diningroom.jpg" style="width:100%" onclick="onClick(this)" alt="White walls with designer chairs">
+    </div>
+
+    <div class="w3-half">
+      <img src="file:///C:/w3images/atrium.jpg" style="width:100%" onclick="onClick(this)" alt="Windows for the atrium">
+      <img src="file:///C:/w3images/bedroom.jpg" style="width:100%" onclick="onClick(this)" alt="Bedroom and office in one space">
+      <img src="file:///C:/w3images/livingroom2.jpg" style="width:100%" onclick="onClick(this)" alt="Scandinavian design">
+    </div>
+  </div>
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display=&#39;none&#39;">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div> <!-- Home -->
+  <div class="w3-container" id="Home" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Home</b></h1>
+    <hr style="width:100px;border:5px solid red" class="w3-round">
+    <h2>What is Remote Laboratory System?</h2>
+    <p>• Remote Laboratory is a way to provide opportunity to conduct experiments in real time at there own pace, from anywhere and anytime </p>
+    <p>• The remote laboratories are used for experiential learning and will help to understand concepts by "Learn by doing"</p>
+    <h2>Remote Laboratory System at ETE</h2>
+    <h4>• Remote Laboratory System for Analog Electronics</h4>
+    <p>• More than 40 experiments,250 +variations</p>
+    <h4>• Feature of Remote Laboratory System</h4>
+    <p>• Guaranteed output more time circuit analysis</p>
+    <p>• Easy procedure</p>
+    <p>• Option to modify the signal parameter at users wish!!</p>
+    <p>• Sufficient pre-defined component variations</p>
+    <p>• Time and frequency response</p>
+    <p>• Measurement and doccumentation is easy</p>
+  </div>
+
+
+  <!-- Objective -->
+  <div class="w3-container" id="Objective" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Objective</b></h1>
+    <hr style="width:100px;border:5px solid red" class="w3-round">
+    <h3>TO provide necessary support to conduct the
+    experiments smoothly</h3>
+    <p>• It includes</p>
+    <p>• Access information of the remote lab system</p>
+    <p>• Introductory videos of each experiment</p>
+    <p>• Analysis Videos</p>
+    <p>• Theoretical background</p>
+    <p>• Conduction procedure</p>
+    <p>• Sample report format</p>
+    <p>• Limitations</p>
+    <p>• Applications</p>
+  </div>
+
+  <!-- Experiment -->
+  <div class="w3-container" id="ListExperiment" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>List of Experiments</b></h1>
+    <hr style="width:100px;border:5px solid red" class="w3-round">
+    <p>The best team in the world.</p>
+    <p>We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
+    incididunt ut labore et quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+    <p><b>Our Experiment are thoughtfully chosen</b>:</p>
+  </div>
+
+  <!-- The Team -->
+  <div>
+  <h3>Inverting Schmitt Trigger </h3>
+  <button class="button"><span><a href="file:///C:/Users/HP/OneDrive/Documents/my%20project/a.pdf" target="_blank">Theoretical background</a></span></button>
+  <br>
+  <button class="button"><span><a href="file:///C:/Users/HP/OneDrive/Documents/my%20project/a.pdf" target="_blank">Manual</a></span></button>
+  <div class="w3-container" id="Experiment" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Limitations</b></h1>
+    <hr style="width:100px;border:5px solid red" class="w3-round">
+    <p>The best team in the world.</p>
+    <p>We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
+    incididunt ut labore et quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+    <p><b>Our Experiment are thoughtfully chosen</b>:</p>
+  </div>
+
+
+  <button class="button"><span><a href="file:///C:/Users/HP/OneDrive/Documents/my%20project/hpf-converted.pdf" target="_blank">Applications</a></span></button>
+  <br>
+  <h3>Non - Inverting Schmitt Trigger</h3>
+  <button class="button"><span><a href="file:///D:/myProjects/Pinki/pdf/NON%20INV%20SCHMITT%20TRIGGER.pdf" target="_blank">Theoretical equation</a></span></button>
+  <br>
+  <button class="button"><span><a href="file:///C:/Users/HP/OneDrive/Documents/my%20project/a.pdf" target="_blank">Manual</a></span></button>
+  <br>
+  <button class="button"><span><a href="file:///C:/Users/HP/OneDrive/Documents/my%20project/a.pdf" target="_blank">Limitations</a></span></button>
+  <br>
+  <button class="button"><span><a href="file:///C:/Users/HP/OneDrive/Documents/my%20project/a.pdf" target="_blank">Applications</a></span></button>
+  <br>
+  <h3>Monostable Multivibrator</h3>
+  <button class="button"><span><a href="file:///C:/Users/HP/OneDrive/Documents/my%20project/a.pdf" target="_blank">Theoretical equation</a></span></button>
+  <br>
+  <button class="button"><span><a href="file:///C:/Users/HP/OneDrive/Documents/my%20project/a.pdf" target="_blank">Manual</a></span></button>
+  <br>
+
+  <div class="w3-container" id="Experiment" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Limitations</b></h1>
+    <hr style="width:100px;border:5px solid red" class="w3-round">
+    <p>One main diasadvantage of Monostable Multivibartors is that the time between the application of the next trigger pulse T has to be greater than the RC time constant of the circuit</p>
+  </div>
+
+  <div class="w3-container" id="Experiment" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Advantages</b></h1>
+    <hr style="width:100px;border:5px solid red" class="w3-round">
+    <p>1. Monostable multivibrators generate output signals at timed intervals in the form of square waves.</p>
+    <p>2. They are half the size of astable Multivibartorsand can, therefore, be used in more diverse situations.</p>
+    <p>3. Monostable multivibrators can be connected to one another to provide additional functionality.</p>
+    <p>4. They are relatively simple in design and are inexpensive when compared with other types of oscillators.</p>
+    <p>5. Monostable multivibrator is used to generate a clean pulse of the correct height and duration for a digital system.</p>
+    <p>6. They are used to turn circuits or external components on or off for a specific length of time.</p>
+    <p>7. They can be cascaded to create a variety of sequential timing pulses.These pulses can allow you to time and sequence a number of related operations.</p>
+  </div>
+
+  <div class="w3-container" id="Experiment" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Applications</b></h1>
+    <hr style="width:100px;border:5px solid red" class="w3-round">
+    <p>1. The Monostable multivibrator is used as delay and timing circuits </p>
+    <p>1. It is also used for temporary memories</p>
+    <p>1. It is often used to trigger another pulse generator.</p>
+    <p>1. It is used regenerate old and worn out pulses</p>
+
+  </div>
+  <h3>Low Pass Filter</h3>
+  <button class="button"><span><a href="file:///D:/myProjects/Pinki/pdf/Monostable%20mv.pdf" target="_blank">Theoretical equation</a></span></button>
+  <br>
+  <button class="button"><span><a href="file:///C:/Users/HP/OneDrive/Documents/my%20project/a.pdf" target="_blank">Manual</a></span></button>
+  <br>
+  <div class="w3-container" id="Experiment" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Limitations</b></h1>
+    <hr style="width:100px;border:5px solid red" class="w3-round">
+    <p>1. Its main disadvantage is that it has no voltage gain above one.However, although the voltage gain is unity the power gain is very high as its output impedance is much lower than its input impedance. </p>
+    <p>2. If the component value is not selected correctly then we end up filtering the frequency which we actually need.</p>
+    <p>3. When using a filter if we don't select correct components then we get unwanted ripples in the passband or the stopband or unwanted phase shifts in certain frequencies.  </p>
+    <p>4. They filter out od the DC offset of the signal.</p>
+  </div>
+  <div class="w3-container" id="Experiment" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Advantages</b></h1>
+    <hr style="width:100px;border:5px solid red" class="w3-round">
+    <p>1. They are used in an audio processing system that filters unwanted noise. </p>
+    <p>2. They are used in various applications such as a broadcast receiver to select desired channel frequency.</p>
+    <p>3. When the use of a Butterworth filter has the magnitude response is zero at the geometric center of the passband. It has a simple transfer function where the coefficients of the polynomials are easy to calculate.</p>
+    <p>4. Low-pass filters can easily remove aliasing effects from a circuit, which makes the cicruit working smoothly.</p>
+    <p>4. They are cost-effective so that it can be used easily.</p>
+    <p>4. They have low output impedance thus, it prevents the filters cut-off frequency from being affected because of the load</p>
+  </div>
+
+<div class="w3-container" id="Experiment" style="margin-top:75px">
+  <h1 class="w3-xxxlarge w3-text-red"><b>Applications</b></h1>
+  <hr style="width:100px;border:5px solid red" class="w3-round">
+  <p>1. LPF is used in audio speakers to reduce high frequency.</p>
+  <p>2. LPF can be used as an audio amplifier and an equalizer.</p>
+  <p>3. In an Analog to Digital converter, LPF is used as anti-aliasing filers to control signals.</p>
+  <p>4. LPF is used in image smoothening, image blurring.</p>
+  <p>5. LPF is also used in radio transmitters to block harmonic emissions.</p>
+  <p>6. These filters are used in music systems to filter the high-frequency sounds, causing echo at higher sounds.</p>
+</div>
+<h3>High Pass Filter</h3>
+  <button class="button"><span><a href="file:///C:/Users/HP/OneDrive/Documents/my%20project/a.pdf" target="_blank">Theoretical equation</a></span></button>
+  <br>
+  <button class="button"><span><a href="file:///C:/Users/HP/OneDrive/Documents/my%20project/a.pdf" target="_blank">Manual</a></span></button>
+  <br>
+  <div class="w3-container" id="Experiment" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Applications</b></h1>
+    <hr style="width:100px;border:5px solid red" class="w3-round">
+    <p>1. LPF is used in audio speakers to reduce high frequency.</p>
+</div>
+  <p>
+
+
+
+<br>
+
+
+</p>
+<!-- Video -->
+  <div class="w3-container" id="Video" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Reference vedios</b></h1>
+    <hr style="width:100px;border:5px solid red" class="w3-round">
+    <iframe width="400" height="300" src="./digital library_files/zAeY3iDs9zE.html" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+  <p>
+
+  </p>
+
+  <iframe width="400" height="300" src="./digital library_files/StRKD8BV9ro.html" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+  <p>
+
+
+  </p>
+
+  <iframe width="400" height="300" src="./digital library_files/ln7wWiAYfdo.html" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+  <p>
+
+
+  </p>
+
+  <iframe width="400" height="300" src="./digital library_files/mIEvLdqRGRQ.html" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+  <p>
+
+
+  </p>
+
+  <iframe width="400" height="300" src="./digital library_files/pUhOFnDi2Zg.html" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+  <p>
+
+
+  </p>
+</div>
+  <!-- DDetail -->
+  <div class="w3-container" id="DDetail" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Developer Details</b></h1>
+    <hr style="width:100px;border:5px solid red" class="w3-round">
+    NAME USN
+    <h3>PRIYANKA TS - 1SI18TE407 </h3>
+  </div>
+
+<!-- End page content -->
+</div>
+
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</div></body></html>

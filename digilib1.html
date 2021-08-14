@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<!-- saved from url=(0065)file:///C:/Users/HP/OneDrive/Documents/my%20project/digilib1.html# -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>W3.CSS Template</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./digilib_files/w3.css">
+<link rel="stylesheet" href="file:///C:/Users/HP/OneDrive/Documents/my%20project/website_files/css">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+shadow {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+s {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(233, 15, 15), 0 0 5px darkblue;
+}
+h5 {
+  font-size: 10px;
+}
+.button {
+  border-radius: 4px;
+  background-color: #f7c12ece;
+  border: none;
+  color: #e7feff;
+  text-align: center;
+  font-size: 16px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+h6 {
+  text-shadow: 2px 2px 5px rgb(60, 26, 184);
+  font-size: 40px;
+}
+h4 {
+  text-shadow: 2px 2px 5px rgb(46, 197, 84);
+}
+
+</style>
+</head><body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-deep-orange w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <img src="./digilib_files/lab.png" style="width:100%" onclick="onClick(this)" alt="some text">
+  <shadow><h2 class="w3-padding-64"><b>ANALOG ELECTRONIC 
+      ULTRA<br> CONCURRENT<br> REMOTE LAB
+      </b></h2></shadow>
+  </div>
+  <div class="w3-bar-block">
+    <shadow><a href="file:///C:/Users/HP/OneDrive/Documents/my%20project/digilib1.html#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
+    <a href="file:///C:/Users/HP/OneDrive/Documents/my%20project/digilib1.html#Images" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Images</a> 
+    <a href="file:///C:/Users/HP/OneDrive/Documents/my%20project/digilib1.html#Objective" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Objective</a> 
+    <a href="file:///C:/Users/HP/OneDrive/Documents/my%20project/digilib1.html#Experiment" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Experiment</a> 
+    <a href="file:///C:/Users/HP/OneDrive/Documents/my%20project/digilib1.html#Video" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Video</a> 
+    <a href="file:///C:/Users/HP/OneDrive/Documents/my%20project/digilib1.html#DeveloperDetails" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">DeveloperDetails</a></shadow>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+  <span></span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="Images">
+    <center><img src="./digilib_files/logo.png" style="width:15%" onclick="onClick(this)" alt="some text">
+    <h6 style="text-shadow"><b>Siddaganga Institute Of Technology, Tumakuru</b></h6>
+    <h4 class="w3-text-black"><b>Department of Electronics and Telecommunication Engineering</b></h4>
+    <hr style="width:100px;border:5px solid red" class="w3-round">
+    </center
+	</hr>
+  </div>
+  
+  
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/6 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 500px) {
+  .text {font-size: 10px}
+}
+</style>
+
+
+
+   <!-- Images -->
+   <div class="w3-container" id="Images" style="margin-top:75px">
+  <h1 class="w3-xxxlarge w3-text-red"><b>Images</b></h1>
+  <hr style="width:100px;border:5px solid red" class="w3-round">
+  <br><br>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">1 / 6</div>
+  <img src="./digilib_files/remotelab.png" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade" style="display: block;">
+  <div class="numbertext">2 / 6</div>
+  <img src="./digilib_files/phase1.png" style="width:100%">
+  <div class="text">Phase 1</div>
+</div>
+
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">3 / 6</div>
+  <img src="./digilib_files/phase2.jpg" style="width:100%">
+  <div class="text">Phase 2</div>
+</div>
+  
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">4 / 6</div>
+  <img src="./digilib_files/phase3.jpg" style="width:100%">
+  <div class="text">Phase 3</div>
+</div>
+
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 6</div>
+  <img src="./digilib_files/phase4.jpg" style="width:100%">
+  <div class="text">Phase 4</div>
+
+</div>
+</div>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot active"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
+</script>
+
+
+ 
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display=&#39;none&#39;">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+    </div>
+  </div>
+   <!-- Home -->
+  <div class="w3-container" id="Home" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Home</b></h1>
+    <hr style="width:100px;border:5px solid red" class="w3-round">
+    <h2>What is Remote Laboratory System?</h2>
+    <p>• Remote Laboratory is a way to provide opportunity to conduct experiments in real time at there own pace, from anywhere and anytime </p>
+    <p>• The remote laboratories are used for experiential learning and will help to understand concepts by "Learn by doing"</p>
+    <h2>Remote Laboratory System at ETE</h2>
+    <h4>• Remote Laboratory System for Analog Electronics</h4>
+    <p>• More than 40 experiments,250 +variations</p>
+    <h4>• Feature of Remote Laboratory System</h4>
+    <p>• Guaranteed output more time circuit analysis</p>
+    <p>• Easy procedure</p>
+    <p>• Option to modify the signal parameter at users wish!!</p>
+    <p>• Sufficient pre-defined component variations</p>
+    <p>• Time and frequency response</p>
+    <p>• Measurement and doccumentation is easy</p>
+  </div>
+  
+
+  <!-- Objective -->
+  <div class="w3-container" id="Objective" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Objective</b></h1>
+    <hr style="width:100px;border:5px solid red" class="w3-round">
+    <h3>TO provide necessary support to conduct the
+    experiments smoothly</h3>
+    <p>• It includes</p>
+    <p>• Access information of the remote lab system</p>
+    <p>• Introductory videos of each experiment</p>
+    <p>• Analysis Videos</p>
+    <p>• Theoretical background</p>
+    <p>• Conduction procedure</p>
+    <p>• Sample report format</p>
+    <p>• Limitations</p>
+    <p>• Applications</p>
+  </div>
+  
+  <!-- Experiment -->
+  <div class="w3-container" id="Experiment" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>List of Experiments</b></h1>
+    <hr style="width:100px;border:5px solid red" class="w3-round">
+  </hr>
+  </div>
+
+  <!-- The Team -->
+  <div>
+    <h6 style="text-align:center" class="w3-text-black"><b>Inverting Schmitt Trigger</b></h6>
+  <h2>Merits of Inverting Schmitt Trigger </h2>
+    <p>• Access information of the remote lab system</p>
+    <p>• Introductory videos of each experiment</p>
+    <p>• Analysis Videos</p>
+    <p>• Theoretical background</p>
+    <p>• Conduction procedure</p>
+    <p>• Sample report format</p>
+    <p>• Limitations</p>
+    <p>• Applications</p>
+  
+  <h2>Demerits of Inverting Schmitt Trigger </h2>
+    <p>• Access information of the remote lab system</p>
+    <p>• Introductory videos of each experiment</p>
+    <p>• Analysis Videos</p>
+    <p>• Theoretical background</p>
+    <p>• Conduction procedure</p>
+    <p>• Sample report format</p>
+    <p>• Limitations</p>
+    <p>• Applications</p>
+  <h2>Applications of Inverting Schmitt Trigger </h2>
+    <p>• Access information of the remote lab system</p>
+    <p>• Introductory videos of each experiment</p>
+    <p>• Analysis Videos</p>
+    <p>• Theoretical background</p>
+    <p>• Conduction procedure</p>
+    <p>• Sample report format</p>
+    <p>• Limitations</p>
+    <p>• Applications</p>
+<br> <br>
+
+  <button class="button"><span><a href="file:///C:/Users/HP/OneDrive/Documents/my%20project/InvertingSchmittTrigger-converted.pdf" target="_blank">Theoretical background</a></span></button>
+  <br>
+  <button class="button"><span><a href="file:///C:/Users/HP/OneDrive/Documents/my%20project/Invertingschmitttrigger_manual-converted.pdf" target="_blank">Manual</a></span></button>
+  <br>
+
+  <br>
+  <h6 style="text-align:center" class="w3-text-black"><b>Non-Inverting Schmitt Trigger</b></h6>
+  <h2>Merits of Non-Inverting Schmitt Trigger </h2>
+    <p>• Access information of the remote lab system</p>
+    <p>• Introductory videos of each experiment</p>
+    <p>• Analysis Videos</p>
+    <p>• Theoretical background</p>
+    <p>• Conduction procedure</p>
+    <p>• Sample report format</p>
+    <p>• Limitations</p>
+    <p>• Applications</p>
+  <h2>Demerits of Non-Inverting Schmitt Trigger </h2>
+    <p>• Access information of the remote lab system</p>
+    <p>• Introductory videos of each experiment</p>
+    <p>• Analysis Videos</p>
+    <p>• Theoretical background</p>
+    <p>• Conduction procedure</p>
+    <p>• Sample report format</p>
+    <p>• Limitations</p>
+    <p>• Applications</p>
+  <h2>Applications of Non-Inverting Schmitt Trigger </h2>
+    <p>• Access information of the remote lab system</p>
+    <p>• Introductory videos of each experiment</p>
+    <p>• Analysis Videos</p>
+    <p>• Theoretical background</p>
+    <p>• Conduction procedure</p>
+    <p>• Sample report format</p>
+    <p>• Limitations</p>
+    <p>• Applications</p>
+
+  <button class="button"><span><a href="file:///C:/Users/HP/Downloads/Non-InvertingSchmittTrigger-converted.pdf" target="_blank">Theoretical equation</a></span></button>
+  <br>
+  <button class="button"><span><a href="file:///C:/Users/HP/Downloads/Non-InvertingSchmittTrigger_manual-converted.pdf" target="_blank">Manual</a></span></button>
+  <br>
+  <br>
+  <h6 style="text-align:center" class="w3-text-black"><b>Monostable Multivibrator</b></h6>
+  <h2>Merits of Monostable Multivibrator </h2>
+    <p>• Access information of the remote lab system</p>
+    <p>• Introductory videos of each experiment</p>
+    <p>• Analysis Videos</p>
+    <p>• Theoretical background</p>
+    <p>• Conduction procedure</p>
+    <p>• Sample report format</p>
+    <p>• Limitations</p>
+    <p>• Applications</p>
+  <h2>Demerits of Monostable Multivibrator </h2>
+    <p>• Access information of the remote lab system</p>
+    <p>• Introductory videos of each experiment</p>
+    <p>• Analysis Videos</p>
+    <p>• Theoretical background</p>
+    <p>• Conduction procedure</p>
+    <p>• Sample report format</p>
+    <p>• Limitations</p>
+    <p>• Applications</p>
+  <h2>Applications of Monostable Multivibrator </h2>
+    <p>• Access information of the remote lab system</p>
+    <p>• Introductory videos of each experiment</p>
+    <p>• Analysis Videos</p>
+    <p>• Theoretical background</p>
+    <p>• Conduction procedure</p>
+    <p>• Sample report format</p>
+    <p>• Limitations</p>
+    <p>• Applications</p>
+
+  <button class="button"><span><a href="file:///C:/Users/HP/Downloads/Monostablemultivibrator-converted.pdf" target="_blank">Theoretical equation</a></span></button>
+  <br>
+  <button class="button"><span><a href="file:///C:/Users/HP/Downloads/Monostablemv_manual-converted.pdf" target="_blank">Manual</a></span></button>
+  <br>
+  <h6 style="text-align:center" class="w3-text-black"><b>Low Pass Filter</b></h6>
+    <p>• Access information of the remote lab system</p>
+    <p>• Introductory videos of each experiment</p>
+    <p>• Analysis Videos</p>
+    <p>• Theoretical background</p>
+    <p>• Conduction procedure</p>
+    <p>• Sample report format</p>
+    <p>• Limitations</p>
+    <p>• Applications</p>
+  <h2>Demerits of LPF </h2>
+    <p>• Access information of the remote lab system</p>
+    <p>• Introductory videos of each experiment</p>
+    <p>• Analysis Videos</p>
+    <p>• Theoretical background</p>
+    <p>• Conduction procedure</p>
+    <p>• Sample report format</p>
+    <p>• Limitations</p>
+    <p>• Applications</p>
+  <h2>Applications of LPF </h2>
+    <p>• Access information of the remote lab system</p>
+    <p>• Introductory videos of each experiment</p>
+    <p>• Analysis Videos</p>
+    <p>• Theoretical background</p>
+    <p>• Conduction procedure</p>
+    <p>• Sample report format</p>
+    <p>• Limitations</p>
+    <p>• Applications</p>
+
+  <button class="button"><span><a href="file:///C:/Users/HP/Downloads/LowPassFilter-converted.pdf" target="_blank">Theoretical equation</a></span></button>
+  <br>
+  <button class="button"><span><a href="C:\Users\HP\OneDrive\Documents\my project\b.pdf" target="_blank">Manual</a></span></button>
+  <br>
+  <h6 style="text-align:center" class="w3-text-black"><b>High Pass Filter</b></h6>
+  <h2>Merits of HPF </h2>
+    <p>• Access information of the remote lab system</p>
+    <p>• Introductory videos of each experiment</p>
+    <p>• Analysis Videos</p>
+    <p>• Theoretical background</p>
+    <p>• Conduction procedure</p>
+    <p>• Sample report format</p>
+    <p>• Limitations</p>
+    <p>• Applications</p>
+  <h2>Demerits of HPF </h2>
+    <p>• Access information of the remote lab system</p>
+    <p>• Introductory videos of each experiment</p>
+    <p>• Analysis Videos</p>
+    <p>• Theoretical background</p>
+    <p>• Conduction procedure</p>
+    <p>• Sample report format</p>
+    <p>• Limitations</p>
+    <p>• Applications</p>
+  <h2>Applications of HPF </h2>
+    <p>• Access information of the remote lab system</p>
+    <p>• Introductory videos of each experiment</p>
+    <p>• Analysis Videos</p>
+    <p>• Theoretical background</p>
+    <p>• Conduction procedure</p>
+    <p>• Sample report format</p>
+    <p>• Limitations</p>
+    <p>• Applications</p>
+
+  <button class="button"><span><a href="file:///C:/Users/HP/Downloads/highpassfilter-converted.pdf" target="_blank">Theoretical equation</a></span></button>
+  <br>
+  <button class="button"><span><a href="file:///C:/Users/HP/OneDrive/Documents/my%20project/a.pdf" target="_blank">Manual</a></span></button>
+  <br>
+</div>
+  <p>
+
+
+
+<br>
+
+
+</p>
+<!-- Video -->
+  <div class="w3-container" id="Video" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Reference vedios</b></h1>
+    <hr style="width:100px;border:5px solid red" class="w3-round">
+    <iframe width="560" height="315" src="./digilib_files/ln7wWiAYfdo.html" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+  <p>        
+
+  </p>
+
+  <iframe width="560" height="315" src="./digilib_files/mIEvLdqRGRQ.html" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+  <p>
+
+
+  </p>
+
+  <iframe width="560" height="315" src="./digilib_files/pUhOFnDi2Zg.html" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+  <p>
+
+
+  </p>
+
+  <iframe width="560" height="315" src="./digilib_files/zAeY3iDs9zE.html" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+  <p>
+
+
+  </p>
+
+  <iframe width="560" height="315" src="./digilib_files/StRKD8BV9ro.html" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+  <p>
+
+
+  </p>
+</div>
+  <!-- DeveloperDetails -->
+  <div class="w3-container" id="DeveloperDetails" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Developer Details</b></h1>
+    <hr style="width:100px;border:5px solid red" class="w3-round">
+    NAME USN
+    <h3>PRIYANKA TS - 1SI18TE407 </h3>  
+    <h3>MOHAMMED NADEEM - 1SI19TE403 </h3> 
+  </div>
+
+<!-- End page content -->
+</div>
+
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</div></body></html>
